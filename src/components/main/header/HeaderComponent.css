@@ -1,0 +1,77 @@
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    background: url("../resources/car_logo.png") round;
+    height: 10vh;
+    width: 10vw;
+}
+
+.transparentInput {
+    background-color: transparent;
+    border: none;
+}
+
+.defaultFontHeader{
+    font-size: larger;
+    color: white;
+}
+
+.specialFontHeader{
+    font-size: larger;
+    color: royalblue;
+}
+
+.headerContainer {
+    background-color: royalblue;
+    display: flex;
+    padding: 5px 1vw 5px 1vw;
+    justify-content: space-between;
+}
+
+@media (max-width: 840px) {
+ .defaultFontHeader{
+     font-size: small;
+ }
+ .specialFontHeader{
+     font-size: small;
+ }
+}
+
+@media (max-width: 680px) {
+    .headerContainer {
+        flex-direction: column;
+    }
+    .logo{
+        width: 90%;
+    }
+}
+
+@media (max-width: 570px) {
+    .pageNav{
+        flex-direction: column !important;
+    }
+
+    .myHeader{
+        flex-direction: column;
+    }
+}
+
+.myHeader{
+    display: flex;
+    align-items: center;
+}
+
+.pageNav{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}

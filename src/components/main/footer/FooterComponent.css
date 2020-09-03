@@ -1,0 +1,70 @@
+
+.mainListBox{
+    display: flex;
+    background-color: dimgrey;
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 767px) {
+    .mainListBox{
+        flex-direction: column;
+    }
+
+    .listBox{
+        padding-right: 5vh;
+    }
+
+}
+
+@media (max-width: 386px) {
+    .listBoxSection{
+        flex-direction: column !important;
+    }
+
+    .listBox{
+        padding-right: 15px;
+    }
+}
+
+.listBox{
+    background-color: transparent;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerLogo{
+    background: url("../resources/car_logo.png") round;
+    height: 150px;
+    width: 50%;
+}
+
+.footerLogoBox{
+    display: flex;
+    justify-content: center;
+    background-color: dimgrey;
+}
+
+.listBoxSection{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.socialBox{
+    display: flex;
+    background-color: dimgrey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 1vw 5px 1vw;
+}
+
+@media (max-width: 470px) {
+    .socialBox{
+        flex-direction: column;
+    }
+}
+.defaultFontFooter{
+    font-size: medium;
+    color: white;
+}

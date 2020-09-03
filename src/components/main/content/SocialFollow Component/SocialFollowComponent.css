@@ -1,0 +1,17 @@
+.socialBtn{
+    height: 40px !important;
+    width: 40px !important;
+    color: white;
+    cursor: pointer;
+}
+
+.myIconBorder{
+    border: 1px solid white !important;
+    border-radius: 50% !important;
+    padding: 5px !important;
+}
+
+.socialLink{
+    padding-left: 5px;
+}
+

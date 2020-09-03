@@ -1,0 +1,58 @@
+.filterBox{
+    display: flex;
+    background-color: transparent;
+    flex-direction: row-reverse;
+    /*justify-content: space-between;*/
+    margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+    .filterBox{
+        flex-direction: column-reverse !important;
+    }
+
+    .selectBox{
+        justify-content: center !important;
+    }
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.btnBox{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.selectBox{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 975px) {
+    .selectBox{
+        padding: 0px;
+        justify-content: flex-end;
+    }
+}
+
+.pR5px{
+    padding-right: 5px;
+}
+
+.defaultFontFilter{
+    color: white;
+}
+
+.specialFontFilter{
+    color: grey;
+}
+
+.invisibleBtn{
+    background-color: transparent;
+}

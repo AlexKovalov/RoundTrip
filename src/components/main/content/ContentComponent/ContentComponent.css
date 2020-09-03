@@ -1,0 +1,46 @@
+.mainContentBox{
+    background: url("../../resources/ocean.jpg") round;
+}
+
+.contactUsBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:5vw;
+    background-color: ghostwhite;
+}
+
+.contactUsForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    display: flex;
+    text-align: end;
+}
+
+@media (max-width: 767px) {
+    .contactUsForm{
+        display: block;
+    }
+    input{
+        margin-bottom: 5px;
+    }
+}
+
+.contactUsTitle {
+    align-self: flex-end;
+}
+
+.contentBox{
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .contentBox{
+        flex-direction: column-reverse;
+    }
+}

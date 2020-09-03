@@ -1,0 +1,110 @@
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.colorTransparent {
+    background-color: transparent;
+}
+
+.checked {
+    color: orange;
+}
+
+.priceCardBox {
+    margin: 5px;
+    text-align: center;
+    font-size: small;
+    justify-content: center
+}
+
+.imageCardBox {
+    margin: 5px;
+    text-align: center;
+    font-size: small;
+}
+
+@media (min-width: 992px) {
+    .imageCardBox{
+        background: url("../../resources/Hotel.jpg") round;
+    }
+    .card-img{
+        display: none;
+    }
+}
+
+.buttonCard {
+    font-size: small;
+}
+
+.descCardText {
+    margin: 0px 0px 5px 0px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.descCardTitle {
+    margin: 0px 0px 5px 0px;
+    font-weight: bold;
+    color: #61dafb;
+}
+
+.descCardBox {
+    margin: 5px;
+    justify-content: flex-end;
+}
+
+.descCardBox1 {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.descCardBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.mediaDescBox{
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .mediaDescBox {
+        flex-direction: column-reverse;
+    }
+
+    .descCardBox1 {
+        text-align: center;
+    }
+}
+
+.myCard{
+    justify-content: flex-end;
+}
+
+@media (max-width: 991px) {
+    .myCard {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 1440px) {
+    .priceCardBox {
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 767px) and  (max-width: 1245px) {
+    .mediaDescBox {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .descCardBox1 {
+        text-align: center;
+    }
+}

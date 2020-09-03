@@ -1,0 +1,12 @@
+.cardContainer{
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.positionAmount{
+    display: flex;
+    justify-content: flex-end;
+    color: royalblue;
+    font-weight: bold;
+}

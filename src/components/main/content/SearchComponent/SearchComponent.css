@@ -1,0 +1,74 @@
+.mySearchCard{
+    display: flex;
+    flex-direction: column;
+    background-color: royalblue;
+    margin: 5px 10px 5px 15px;
+}
+
+.searchTitle{
+    padding-right: 15px;
+}
+
+
+.searchContainer{
+    overflow: auto;
+}
+.myStarInputBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.myInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.myStarLabel{
+    margin-right: 2vw;
+}
+
+.defaultFontSearch{
+    color: white;
+}
+
+.rightText{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.priceRangeSearchBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.priceRangeTitleBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.marginR2VW{
+    margin-right: 2vw;
+}
+
+@media (max-width: 767px) {
+    .marginR2VW{
+        margin-right: 15px;
+    }
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.whiteLine{
+    border-bottom: 1px solid white;
+}
+
+.marginL2VW{
+    margin-left: 2vw;
+}
